@@ -1,0 +1,49 @@
+[
+  {
+    "type": "scenario",
+    "data":
+    [
+      {
+        "type": "text",
+        "contents": 
+        {
+          "KR": "상대방에게 당신의 제안을 보냈습니다. 상대의 결정을 기다리고 있습니다.",
+          "EN": "Sent your proposal to the counterpart. Waiting for their decision."
+        }
+      },
+      {
+        "type": "waiting",
+        "duration": 10
+      }
+    ] 
+  },
+  {
+    "type": "scenario",
+    "data": 
+    [
+      {
+        "type": "text",
+        "contents":
+        {
+          "KR": 
+            "상대가 당신의 금액을 수락했습니다. ",
+          "EN":
+            "A contract has been signed for "
+        }
+      },
+      {
+        "type": "final price"
+      },
+      {
+        "type": "text",
+        "contents":
+        {
+          "KR": 
+            "에 계약이 체결되었습니다. 다음을 누르면 마지막 설문조사를 진행합니다.",
+          "EN":
+            ". Click Next to proceed with the final survey."
+        }
+      }
+    ]
+  }
+]
