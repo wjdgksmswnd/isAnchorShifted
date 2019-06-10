@@ -58,7 +58,7 @@ async function test() {
   await testCheckStep(ID, 1)
 }
 
-test()
+// test()
 
 function testCheckStep(userID, stepNumber) {
   user.checkStep(userID, stepNumber)
@@ -71,5 +71,16 @@ function testCheckStep(userID, stepNumber) {
 }
 
 function getRandomInt (min, max) {
-  return Math.floor(Math.random() * (max - min)) + min
+  return Math.floor(Math.random() * (max - min + 1)) + min
 }
+
+function testGetRandomInt () {
+  let count = [0, 0, 0, 0, 0];
+  for(let i=0; i<10000; i++){
+    let temp = getRandomInt(1, 4)
+    count[temp]++;
+  }
+  console.log(count);
+}
+
+testGetRandomInt()
