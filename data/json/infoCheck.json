@@ -60,5 +60,30 @@
         ]
       }
     ]
+  },
+  {
+    "type": "scenario",
+    "data": 
+    [
+      {
+        "type": "text",
+        "contents":
+        {
+          "KR": "당신은 ",
+          "EN": "You can negotiate with "
+        }
+      },
+      {
+        "type": "number of contractor"
+      },
+      {
+        "type": "text",
+        "contents":
+        {
+          "KR": "개의 업체와 협상이 가능합니다. 시작 버튼을 누르시면 협상을 시작하겠습니다.",
+          "EN": " companies. Press the Start button, and you can start negotiating with them."
+        }
+      }
+    ]
   }
 ]
