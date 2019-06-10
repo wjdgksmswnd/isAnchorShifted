@@ -32,7 +32,17 @@
           "KR": "당신은 이 가격이 합리적이라고 생각하십니까?",
           "EN": "Do you think this price is reasonable?"
         },
-        "type": "7 liker scale"
+        "type": "selection",
+        "contents": [
+          {
+            "type": "selection",
+            "text": {"KR": "네", "EN": "Yes"}
+          },
+          {
+            "type": "selection",
+            "text": {"KR": "아니오", "EN": "No"}
+          }
+        ]
       }
     ]
   }  
