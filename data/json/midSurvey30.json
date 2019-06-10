@@ -53,7 +53,7 @@
           "KR": "당신이 생각하는 합리적인 가격은 얼마입니까?",
           "EN": "What is the reasonable price you think?"
         },
-        "type": "text with input box",
+        "type": "input box with text",
         "contents": [
           {
             "type": "input box"
