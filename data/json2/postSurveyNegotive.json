@@ -1,0 +1,53 @@
+[
+  {
+    "type": "survey",
+    "data":
+    [
+      {
+        "number": 1,
+        "question": {
+          "KR": "당신은 마지막 협상 파트너와 다시 협상할 의향이 있으십니까?"
+        },
+        "type": "7 liker scale"
+      },
+      {
+        "number": 2,
+        "question": {
+          "KR": "당신은 다른 협상을 위해 친구에게 마지막 협상 파트너를 소개 시켜주겠습니까?"
+        },
+        "type": "7 liker scale"
+      },
+      {
+        "type": "page devider"
+      },
+      {
+        "number": 3,
+        "question": {
+          "KR": "당신은 마지막 협상자의 마지막 제안 가격에 대해 얼만큼 만족하십니까?"
+        },
+        "type": "7 liker scale"
+      },
+      {
+        "number": 4,
+        "question": {
+          "KR": "당신은 친구에게 마지막 협상자의 마지막 제안 가격에 대해 어떻게 말할 것입니까?"
+        },
+        "type": "7 liker scale"
+      },
+      {
+        "number": 5,
+        "question": {
+          "KR": ["당신은 ", "에게서 받은 가격이 얼만큼 정확하다고 생각하십니까?"]
+        },
+        "type": "7 liker scale"
+      },
+      {
+        "number": 6,
+        "question": {
+          "KR": ["당신은 친구에게 ", "에게서 가격을 받을 것을 추천할 것입니까?"]
+        },
+        "type": "7 liker scale"
+      }
+    ]
+  }
+]

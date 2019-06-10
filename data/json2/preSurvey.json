@@ -1,0 +1,92 @@
+[
+  {
+    "type": "survey",
+    "data": 
+      [
+        {
+          "number": "1",
+          "question": {
+            "KR": "귀하의 신분은?",
+            "EN": ""
+          },
+          "type": "selection",
+          "contents": [
+            {
+              "type": "selection",
+              "text": {"KR": "학부생", "EN": ""}
+            },
+            {
+              "type": "selection",
+              "text": {"KR": "석사생"}
+            },
+            {
+              "type": "selection",
+              "text": {"KR": "박사생"}
+            },
+            {
+              "type": "selection with text input",
+              "text": {"KR": "기타"}
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "question": {
+            "KR": "귀하의 소속은?"
+          },
+          "type": "input box with text",
+          "contents": 
+            [
+              {
+                "type": "input box"
+              },
+              {
+                "type": "text",
+                "text": {"KR": "대학"}
+              },
+              {
+                "type": "input box"
+              },
+              {
+                "type": "text",
+                "text": {"KR": "과"}
+              }
+            ]
+        },
+        {
+          "number": "3",
+          "question": {
+            "KR": "귀하의 성별은?"
+          },
+          "type": "selection",
+          "contents": [
+            {
+              "type": "selection",
+              "text": {"KR": "남"}
+            },
+            {
+              "type": "selection",
+              "text": {"KR": "여"}
+            }
+          ]
+        },
+        {
+          "number": "4",
+          "question": {
+            "KR": "귀하의 나이는?"
+          },
+          "type": "input box with text",
+          "contents": [
+            {
+              "type": "input box",
+              "input type": "int"
+            },
+            {
+              "type": "text",
+              "text": {"KR": "세"}
+            }
+          ]
+        }
+      ]
+  }  
+]

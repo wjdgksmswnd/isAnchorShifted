@@ -1,0 +1,41 @@
+<head>
+  <script src='/jquery'></script>
+  <script = 'javascript'>
+    function sendBasicInfo(){
+      console.log('sendBasicInfo has entered');
+      $.ajax({
+        url: "/user",
+        type: "POST",
+        data: {
+          name: $("#name").val(),
+          email: $("#email").val()
+        },
+        success: function(result) {
+          if (result) {
+            console.log(result);
+            if(result.status > 0)
+            {
+              //TODO: alert 이어하시겠습니까?
+            }
+            window.location.replace("/simulation/" + result.ID);
+          }
+          else {
+            console.log('result is null');
+          }
+        },
+        error: function(error) {
+          console.log(error);
+        }
+      });
+    }
+  </script>
+</head>
+<body>
+  <div id='form'>
+    <form action=''> 
+      <div id='divName'>이름: <input type="text" id="name"></div>
+      <div id='divEmail'>email: <input type="text" id="email"></div>
+      <input type='button' value='보내기' id='submit'  onclick='sendBasicInfo();'>
+    </form>
+  </div>
+</body>

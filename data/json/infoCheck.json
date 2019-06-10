@@ -1,0 +1,64 @@
+[
+  {
+    "type": "scenario",
+    "data":[
+      {
+        "type": "text",
+        "contents": {
+          "KR": 
+            "당신은 창업하기 위해 오피스를 구했습니다. 대략 25평 크기의 오피스인데, 이 오피스를 인테리어 하기 위해 업체들과 계약을 하고자 합니다. 하지만 당신은 인테리어 공사에 대한 지식이 없어서 ",
+             "EN":
+             "You got an office to start a business. It's a roughly 80m^2 office, and you'd like to sign up with companies to interiorize this office."
+        }
+      },
+      {
+        "type": "text/optional",
+        "contents": 
+        [
+          { 
+            "KR": "인터넷을 찾아 대략적인 공사금액을 찾았습니다.",
+            "EN": "But you don't have any knowledge of interior construction, so you found a rough price of the construction on the Internet."
+          },
+          {
+            "KR": "인테리어 전문가에게 대략적인 공사 금액을 물었습니다.",
+            "EN": "But you didn't have any knowledge of interior construction, so you asked an interior expert for an approximate price of construction."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "contents": {
+          "KR": 
+            "이에 대한 답변으로 25평 정도의 대략적인 인테리어 공사 금액이 4000만원 정도라는 이야기를 들었습니다. 하지만 가게를 직접 보여준 것이 아니라서 정확한 금액은 아니라는 이야기를 들었습니다. 현재 당신은 창업비를 제외하고 약 9000만원의 돈을 가지고 있습니다. 인테리어를 무조건 해야 하는 것은 아니지만 오피스 환경이 너무 열악하여 쾌적한 환경을 위해 인테리어를 하고자 합니다. 당신은 지금 현재 서버에 접속해 있는 다른 사람들과(인테리어 업체) 협상을 진행할 예정입니다. 당신이 몇 명의 인테리어 업체와 협상을 할 수 있을지는 서버에서 확인 후에 알려드릴 예정입니다. 당신은 그 인테리어 업체와 언제든지 협상에 동의할 수도 있고 협상을 결렬할 수도 있습니다. 위의 상황에 대한 내용 숙지가 끝나셨다면 시작 버튼을 누르십시오. 시작 버튼을 누르시면 간단한 설문조사가 시작되고, 설문조사를 진행하는 동안 서칭 후 몇 개의 업체와 협상할 수 있는지에 대해 알려 드리겠습니다.",
+             "EN":
+             "you’ve heard that the approximate cost of 80m^2 of interior construction is about $40,000. But you've heard that it's not the exact amount because you didn’t show your office. Currently, you have about $900,000 in your pocket, excluding other costs. Interior construction is not mandatory, but it is certain that it will greatly improve the current suffering status of the office. You are about to begin negotiations with other people (interior contractor) who are currently accessing the server. We will let you know how many interior companies you can negotiate with after we check on the server. You can agree to a negotiation with the interior company at any time, or you can break the negotiation. If you understand the above situation, press the Start button. Press the Start button to start a quick survey and we will let you know how many companies you can negotiate with after the survey."
+        }
+      }
+    ] 
+      
+  },
+  {
+    "type": "survey",
+    "data":
+    [
+      {
+        "number": 1,
+        "question": {
+          "KR": "당신은 어디에서 가격 정보를 얻었습니까?",
+          "EN": "Where did you get the price information?" 
+        },
+        "type": "selection",
+        "contents": [
+          {
+            "type": "selection",
+            "text": {"KR": "인터넷", "EN": "From internet"}
+          },
+          {
+            "type": "selection",
+            "text": {"KR": "전문가", "EN": "From expert"}
+          }
+        ]
+      }
+    ]
+  }
+]

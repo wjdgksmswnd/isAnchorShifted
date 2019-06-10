@@ -1,0 +1,26 @@
+[
+  {
+    "type": "offer",
+    "data":
+    [
+      {
+        "type": "text",
+        "contents": {
+          "KR": "상대가 당신의 제안을 받아들이지 않고, 다시 가격을 제안했습니다. 가격은 ",
+          "EN": "The opponent refuesed to accept your offer and offered the price again. The price is "
+        }
+      },
+      {
+        "type": "price",
+        "discount": 5
+      },
+      {
+        "type": "text",
+        "contents": {
+          "KR": "입니다. 계약에 체결하시거나 원하는 가격을 상대방에 제시하시거나 계약을 결렬하실 수 있습니다.",
+          "EN": ". You can sign a contract, offer the price you want, or break the contract."
+        }
+      }
+    ]
+  }  
+]

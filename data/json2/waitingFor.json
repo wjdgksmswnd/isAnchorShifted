@@ -1,0 +1,19 @@
+[
+  {
+    "type": "scenario",
+    "data":
+    [
+      {
+        "type": "text",
+        "contents": 
+        {
+          "KR": "상대방에게 제안을 보냈습니다. 상대의 결정을 기다립니다."
+        }
+      },
+      {
+        "type": "waiting",
+        "duration": 10
+      }
+    ] 
+  }
+]

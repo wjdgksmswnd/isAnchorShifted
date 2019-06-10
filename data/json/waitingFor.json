@@ -1,0 +1,20 @@
+[
+  {
+    "type": "scenario",
+    "data":
+    [
+      {
+        "type": "text",
+        "contents": 
+        {
+          "KR": "상대방에게 당신의 제안을 보냈습니다. 상대의 결정을 기다리고 있습니다.",
+          "EN": "Sent your proposal to the counterpart. Waiting for their decision."
+        }
+      },
+      {
+        "type": "waiting",
+        "duration": 10
+      }
+    ] 
+  }
+]

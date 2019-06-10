@@ -1,0 +1,18 @@
+[
+  {
+    "type": "scenario",
+    "data": 
+    [
+      {
+        "type": "text",
+        "contents":
+        {
+          "KR": 
+            "모든 시뮬레이션과 설문이 완료되었습니다. 수고하셨습니다. 감사합니다.",
+          "EN":
+            "All simulations and suveys have been completed. Thank you."
+        }
+      }
+    ]
+  }
+]

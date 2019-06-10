@@ -1,0 +1,74 @@
+[
+  {
+    "type": "survey",
+    "data":
+    [
+      {
+        "number": 1,
+        "question": {
+          "KR": "당신은 마지막 협상 파트너와 다시 협상할 의향이 있으십니까?",
+          "EN": "Would you be willing to negotiate with the same partner again?"
+        },
+        "type": "7 liker scale"
+      },
+      {
+        "number": 2,
+        "question": {
+          "KR": "당신은 다른 협상을 위해 친구에게 마지막 협상 파트너를 소개해 주겠습니까?",
+          "EN": "Would you recommend this company to your friend for another negotiation?"
+        },
+        "type": "7 liker scale"
+      }
+    ]
+  },
+  {
+    "type": "survey",
+    "data":
+    [
+      {
+        "number": 3,
+        "question": {
+          "KR": "당신은 마지막 협상자의 마지막 제안 가격에 대해 얼만큼 만족하십니까?",
+          "EN": "How satisfied are you with the last negotiator's final offer?"
+        },
+        "type": "7 liker scale"
+      },
+      {
+        "number": 4,
+        "question": {
+          "KR": "당신은 친구에게 마지막 협상자의 마지막 제안 가격에 대해 어떻게 말할 것입니까?",
+          "EN": "How would you tell your friend about the last negotiator's final offer?"
+        },
+        "type": "7 liker scale"
+      },
+      {
+        "number": 5,
+        "question": [
+          {
+            "KR": "당신은 인터넷에서 얻은 가격 정보가 얼마나 정확하다고 생각하십니까?",
+            "EN": "How accurate do you think is the price information you get on the internet?"
+          },
+          {
+            "KR": "당신은 전문가에게서 얻은 가격 정보가 얼마나 정확하다고 생각하십니까?",
+            "EN": "How accurate do you think is the price information you get from the expert?"
+          }
+        ],
+        "type": "7 liker scale"
+      },
+      {
+        "number": 6,
+        "question": [
+          {
+            "KR": "당신은 친구에게 인터넷에서 가격 정보를 받는 것을 추천할 것입니까?",
+            "EN": "Would you recommend that your friend get price information on the internet?"
+          },
+          {
+            "KR": "당신은 친구에게 전문가에게서 가격 정보를 받는 것을 추천할 것입니까?",
+            "EN": "Would you recommend that your friend get price information from an expert?"
+          }
+        ],
+        "type": "7 liker scale"
+      }
+    ]
+  }
+]

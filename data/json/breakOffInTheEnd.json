@@ -1,0 +1,17 @@
+[
+  {
+    "type": "scenario",
+    "data":
+    [
+      {
+        "type": "text",
+        "contents": {
+          "KR": 
+            "모든 상대와의 협상이 종료되었습니다. 다음을 누르면 마지막 설문조사를 진행합니다.", 
+          "EN":
+            "The negotiations with all your counterparts have ended. Click Next to move on to the final survey." 
+        }
+      }
+    ]
+  }
+]

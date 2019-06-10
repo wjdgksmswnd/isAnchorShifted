@@ -1,0 +1,71 @@
+[
+  {
+    "type": "scenario",
+    "data":
+    [
+      {
+        "type": "text",
+        "contents": {
+          "KR": "세번째 업체입니다. 상대는 당신에게 ",
+          "EN": "This is the third company you're negotiating with. Your counterpart offered you "
+        }
+      },
+      {
+        "type": "price"
+      },
+      {
+        "type": "text",
+        "contents": {
+          "KR": "을 견적으로 제시했습니다. 계약에 체결하시거나 원하는 가격을 상대방에 제시하시거나 계약을 결렬하실 수 있습니다.",
+          "EN": ". You can sign a contract, offer the price you want, or break the contract."
+        }
+      }
+    ]
+  },
+  {
+    "type": "survey",
+    "data":
+    [
+      {
+        "number": 1,
+        "question": {
+          "KR": "당신은 상대방이 제시한 가격이 얼마나 합리적이라고 생각 하십니까?",
+          "EN": "How reasonable do you think the price offerd by the counterpart is?"
+        },
+        "type": "7 liker scale"
+      },
+      {
+        "number": 2,
+        "question": {
+          "KR": "당신은 친구에게 상대방이 제시한 가격에 대해 어떻게 이야기할 것입니까?",
+          "EN": "How would you tell your friend about the price the counterpart offered?"
+        },
+        "type": "7 liker scale"
+      }
+    ]
+  },
+  {
+    "type": "survey",
+    "data":[
+      {
+        "number": 3,
+        "question": {
+          "KR": "당신이 생각하는 합리적인 가격은 얼마입니까?",
+          "EN": "What is the reasonable price you think?"
+        },
+        "type": "text with input box",
+        "contents": [
+          {
+            "type": "input box"
+          },
+          {
+            "type": "text",
+            "text": {
+              "KR": "만원"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

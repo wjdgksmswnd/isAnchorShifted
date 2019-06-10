@@ -1,0 +1,41 @@
+[
+  {
+    "type": "survey",
+    "data":
+    [
+      {
+        "number": 1,
+        "question": {
+          "KR": "당신은 상대방이 제시한 가격이 얼마나 합리적이라고 생각 하십니까?"
+        },
+        "type": "7 liker scale"
+      },
+      {
+        "number": 2,
+        "question": {
+          "KR": "당신은 친구에게 상대방이 제시한 가격에 대해 어떻게 이야기할 것입니까?"
+        },
+        "type": "7 liker scale"
+      },
+      {
+        "type": "page devider"
+      },
+      {
+        "number": 3,
+        "question": {
+          "KR": "당신이 생각하는 합리적인 가격은 얼마입니까?"
+        },
+        "type": "text with input box",
+        "contents": [
+          {
+            "type": "input box"
+          },
+          {
+            "type": "text",
+            "text": "만원"
+          }
+        ]
+      }
+    ]
+  }
+]

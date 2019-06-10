@@ -1,0 +1,16 @@
+[
+  {
+    "type": "scenario",
+    "data": 
+    [
+      {
+        "type": "text",
+        "contents":
+        {
+          "KR": "협상이 결렬되었습니다. 다음을 누르면 다른 상대와 협상을 진행합니다.",
+          "EN": "The negotiation was cancelled. Press the Next button to negotiate with the other party."
+        }
+      }
+    ]
+  }
+]
