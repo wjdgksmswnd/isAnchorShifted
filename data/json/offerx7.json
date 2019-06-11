@@ -17,8 +17,8 @@
       {
         "type": "text",
         "contents": {
-          "KR": "이하로는 계약할 수 없다고 합니다. 계약에 체결하시겠습니까, 결렬하시겠습니까?",
-          "EN": ". Do you want to sign or break the contract?"
+          "KR": "만원 이하로는 계약할 수 없다고 합니다. 계약에 체결하시겠습니까, 결렬하시겠습니까?",
+          "EN": "$. Do you want to sign or break the contract?"
         }
       }
     ]

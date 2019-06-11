@@ -32,7 +32,8 @@
         {
           "number": "2",
           "question": {
-            "KR": "귀하의 소속은?"
+            "KR": "귀하의 소속은?",
+            "EN": "What is your affiliation?"
           },
           "type": "input box with text",
           "contents": 
@@ -42,14 +43,14 @@
               },
               {
                 "type": "text",
-                "text": {"KR": "대학"}
+                "text": {"KR": "대학", "EN": "University"}
               },
               {
                 "type": "input box"
               },
               {
                 "type": "text",
-                "text": {"KR": "과"}
+                "text": {"KR": "과", "EN": "Major"}
               }
             ]
         },
