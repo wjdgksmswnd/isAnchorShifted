@@ -3,7 +3,7 @@
   <link rel="stylesheet" href="/css">
   <script src='/jquery'></script>
   <script = 'javascript'>
-    function sendBasicInfo(){
+    $("div#submitArea").click( function () {
       console.log('sendBasicInfo has entered');
       $.ajax({
         url: "/user",
@@ -29,20 +29,18 @@
           console.log(error);
         }
       });
-    }
+    });
   </script>
 </head>
 <body>
   <div id='skin'>
     <div id='titleArea'></div>
-    <form action=''> 
     <div id='questionArea'>
       <div id='divName' class='surveyQuestion'>Name: <input type="text" id="name"></div>
       <div id='divEmail' class='surveyQuestion'>E-Mail: <input type="text" id="email"></div>
     </div>
     <div id='submitArea'>
-      <input type='button' value='Next' id='submit'  onclick='sendBasicInfo();'>
+      <span>NEXT</span>
     </div>
-    </form>
   </div>
 </body>

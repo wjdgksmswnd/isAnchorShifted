@@ -3,7 +3,7 @@
   <link rel="stylesheet" href="/css">
   <script src='/jquery'></script>
   <script = 'javascript'>
-    function sendBasicInfo(){
+    $("div#submitArea").click( function () {
       console.log('sendBasicInfo has entered');
       $.ajax({
         url: "/user",
@@ -29,7 +29,7 @@
           console.log(error);
         }
       });
-    }
+    });
   </script>
 </head>
 <body>
@@ -41,7 +41,7 @@
       <div id='divEmail' class='surveyQuestion'>email: <input type="text" id="email"></div>
     </div>
     <div id='submitArea'>
-      <input type='button' value='Next' id='submit'  onclick='sendBasicInfo();'>
+       <span>다음</span>
     </div>
     </form>
   </div>
