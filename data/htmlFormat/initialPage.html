@@ -3,31 +3,33 @@
   <link rel="stylesheet" href="/css">
   <script src='/jquery'></script>
   <script = 'javascript'>
-    $("div#submitArea").click( function () {
-      console.log('sendBasicInfo has entered');
-      $.ajax({
-        url: "/user",
-        type: "POST",
-        data: {
-          name: $("#name").val(),
-          email: $("#email").val()
-        },
-        success: function(result) {
-          if (result) {
-            console.log(result);
-            if(result.status > 0)
-            {
-              //TODO: alert 이어하시겠습니까?
+    $(document).ready( function() {
+      $("div#submitArea").click( function () {
+        console.log('sendBasicInfo has entered');
+        $.ajax({
+          url: "/user",
+          type: "POST",
+          data: {
+            name: $("#name").val(),
+            email: $("#email").val()
+          },
+          success: function(result) {
+            if (result) {
+              console.log(result);
+              if(result.status > 0)
+              {
+                //TODO: alert 이어하시겠습니까?
+              }
+              window.location.replace("/simulation/" + result.ID);
             }
-            window.location.replace("/simulation/" + result.ID);
+            else {
+              console.log('result is null');
+            }
+          },
+          error: function(error) {
+            console.log(error);
           }
-          else {
-            console.log('result is null');
-          }
-        },
-        error: function(error) {
-          console.log(error);
-        }
+        });
       });
     });
   </script>

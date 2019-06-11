@@ -81,16 +81,28 @@ span {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
 }
 
 
-input[type="text"] 
+.offerOption>input[type="text"] 
 { 
   margin: 0px 5px 0px 15px; 
 }
 
+div.answer>input[type="text"] 
+{ 
+  margin: 0px 5px 0px 0px; 
+}
+
+div.selectOption>input[type="text"] 
+{ 
+  margin: 0px 5px 0px 10px; 
+}
+
+
 input[type="radio"]
 {
   margin: 10px 10px 10px 5px;
+  padding: 10px 0 0 0;
 }
