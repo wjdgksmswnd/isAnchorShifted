@@ -40,7 +40,13 @@
           "EN": "How would you tell your friend about the last negotiator's final offer?"
         },
         "type": "7 liker scale"
-      },
+      }
+    ]
+  },
+  {
+    "type": "survey",
+    "data":
+    [
       {
         "number": 5,
         "question": [

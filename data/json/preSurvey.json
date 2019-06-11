@@ -33,18 +33,11 @@
           "number": "2",
           "question": {
             "KR": "귀하의 소속은?",
-            "EN": "What is your affiliation?"
+            "EN": "What is your major?"
           },
           "type": "input box with text",
           "contents": 
             [
-              {
-                "type": "input box"
-              },
-              {
-                "type": "text",
-                "text": {"KR": "대학", "EN": "University"}
-              },
               {
                 "type": "input box"
               },

@@ -19,7 +19,7 @@
             {
               //TODO: alert 이어하시겠습니까?
             }
-            window.location.replace("/simulation/" + result.ID);
+            window.location.replace("/simulation/" + result.ID + "/EN");
           }
           else {
             console.log('result is null');
@@ -37,8 +37,8 @@
     <div id='titleArea'></div>
     <form action=''> 
     <div id='questionArea'>
-      <div id='divName' class='surveyQuestion'>이름: <input type="text" id="name"></div>
-      <div id='divEmail' class='surveyQuestion'>email: <input type="text" id="email"></div>
+      <div id='divName' class='surveyQuestion'>Name: <input type="text" id="name"></div>
+      <div id='divEmail' class='surveyQuestion'>E-Mail: <input type="text" id="email"></div>
     </div>
     <div id='submitArea'>
       <input type='button' value='Next' id='submit'  onclick='sendBasicInfo();'>

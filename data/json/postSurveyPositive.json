@@ -40,7 +40,13 @@
           "EN": "Would you tell your friend that you negotiated at a good price?"
         },
         "type": "7 liker scale"
-      },
+      }
+    ]
+  },
+  {
+    "type": "survey",
+    "data":
+    [
       {
         "number": 5,
         "question": [
