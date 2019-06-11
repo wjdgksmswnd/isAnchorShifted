@@ -1,4 +1,6 @@
 <head>
+  <link rel="stylesheet" href="/bootstrap">
+  <link rel="stylesheet" href="/css">
   <script src='/jquery'></script>
   <script = 'javascript'>
     function sendBasicInfo(){
@@ -31,11 +33,16 @@
   </script>
 </head>
 <body>
-  <div id='form'>
+  <div id='skin'>
+    <div id='titleArea'></div>
     <form action=''> 
-      <div id='divName'>이름: <input type="text" id="name"></div>
-      <div id='divEmail'>email: <input type="text" id="email"></div>
+    <div id='questionArea'>
+      <div id='divName' class='surveyQuestion'>이름: <input type="text" id="name"></div>
+      <div id='divEmail' class='surveyQuestion'>email: <input type="text" id="email"></div>
+    </div>
+    <div id='submitArea'>
       <input type='button' value='보내기' id='submit'  onclick='sendBasicInfo();'>
+    </div>
     </form>
   </div>
 </body>
