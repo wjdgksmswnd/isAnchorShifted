@@ -12,6 +12,9 @@
           "EN":
             "All simulations and suveys have been completed. Thank you."
         }
+      },
+      {
+        "type": "amazonCode"
       }
     ]
   }

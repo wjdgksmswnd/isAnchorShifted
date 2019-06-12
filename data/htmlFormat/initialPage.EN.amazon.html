@@ -1,0 +1,46 @@
+<head>
+  <link rel="stylesheet" href="/bootstrap">
+  <link rel="stylesheet" href="/css">
+  <script src='/jquery'></script>
+  <script = 'javascript'>
+    $(document).ready( function() {
+      $("div#submitArea").click( function () {
+        console.log('sendBasicInfo has entered');
+        $.ajax({
+          url: "/amazonUser",
+          type: "POST",
+          data: {
+            name: $("#name").val()
+          },
+          success: function(result) {
+            if (result) {
+              console.log(result);
+              if(result.status > 0)
+              {
+                //TODO: alert 이어하시겠습니까?
+              }
+              window.location.replace("/simulation/" + result.ID + "/EN");
+            }
+            else {
+              console.log('result is null');
+            }
+          },
+          error: function(error) {
+            console.log(error);
+          }
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id='skin'>
+    <div id='titleArea'></div>
+    <div id='questionArea'>
+      <div id='divName' class='surveyQuestion'>Nickname: <input type="text" id="name"></div>
+    </div>
+    <div id='submitArea'>
+      <span>NEXT</span>
+    </div>
+  </div>
+</body>
