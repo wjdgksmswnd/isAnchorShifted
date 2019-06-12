@@ -33,9 +33,12 @@
              "EN":
              "you’ve heard that the approximate cost of 80m^2 of interior construction is about $40,000. But you've heard that it's not the exact amount because you didn’t show your office. </br></br> Currently, you have about $90,000 in your pocket, excluding other costs. Interior construction is not mandatory, but it is certain that it will greatly improve the current suffering status of the office. You are about to begin negotiations with other people (interior contractor role) who are currently accessing the server. We will let you know how many interior companies you can negotiate with after we check on the server. You can agree to a negotiation with the interior company at any time, or you can break the negotiation. If you understand the above situation, press the Next button. Press the Next button to start a quick survey and we will let you know how many companies you can negotiate with after the survey."
         }
+      },
+      {
+        "type": "waiting",
+        "duration": 10
       }
     ] 
-      
   },
   {
     "type": "survey",
