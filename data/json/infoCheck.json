@@ -29,10 +29,6 @@
           "EN":
             "You are about to begin negotiations with interior contractors who are currently accessing the server. We will let you know how many interior companies you can negotiate with after we check the server. You can agree to negotiate with the interior company at any time, or you can break the negotiation. If you understand the above situation, press the Next button. Press the Next button to start a quick survey and we will let you know how many companies you can negotiate with after the survey.</br></br>"
         }
-      },
-      {
-        "type": "waiting",
-        "duration": 10
       }
     ] 
   }
