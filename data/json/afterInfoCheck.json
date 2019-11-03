@@ -5,25 +5,42 @@
     [
       {
         "number": 1,
-        "question": 
-          [
-            {"KR": "당신은 인터넷에서 얻은 가격 정보가 얼마나 정확하다고 생각하십니까?", "EN": "How accurate do you think is the price information you get on the internet?"},
-            {"KR": "당신은 전문가에게서 얻은 가격 정보가 얼마나 정확하다고 생각하십니까?", "EN": "How accurate do you think is the price information you get from an expert?"}
-          ],
+        "question": {
+          "KR": "당신은 인터넷에서 얻은 가격 정보가 얼마나 정확하다고 생각하십니까?", 
+          "EN": "How accurate do you think is the price information you get on the internet?"},
         "type": "7 liker scale"
       },
       {
         "number": 2,
-        "question": 
-          [
-            {
-              "KR": "당신은 친구에게 인터넷에서 가격 정보를 받는 것을 추천할 것입니까?", "EN": "Would you recommend that your friend get price information on the internet?"
-            },
-            {
-              "KR": "전문가에게서 가격 정보를 받는 것을 추천할 것입니까?", "EN": "Would you recommend that your friend get price information from an expert?"
-            }
-          ],
+        "question": {
+            "KR": "당신은 친구에게 인터넷에서 가격 정보를 받는 것을 추천할 것입니까?", 
+            "EN": "Would you recommend that your friend get price information on the internet?" },
         "type": "7 liker scale"
+      }
+    ]
+  },
+  {
+    "type": "survey",
+    "data":[
+      {
+        "number": 3,
+        "question": {
+          "KR": "당신이 생각하는 합리적인 가격은 얼마입니까?",
+          "EN": "What is the reasonable price you think?"
+        },
+        "type": "input box with text",
+        "contents": [
+          {
+            "type": "input box"
+          },
+          {
+            "type": "text",
+            "text": {
+              "KR": "만원",
+              "EN": "dollars"
+            }
+          }
+        ]
       }
     ]
   },
@@ -47,7 +64,7 @@
         "contents":
         {
           "KR": "개의 업체와 협상이 가능합니다. 시작 버튼을 누르시면 협상을 시작하겠습니다.",
-          "EN": " companies. Press the Next button, and you can start negotiating with them."
+          "EN": ". Press the Next button, and you can start negotiating with them."
         }
       }
     ]

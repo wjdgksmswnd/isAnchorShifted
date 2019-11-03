@@ -1,0 +1,78 @@
+[
+  {
+    "type": "survey",
+    "data":
+    [
+      {
+        "number": 1,
+        "question": {
+          "EN": "I see myself as someone who is generally trusting."
+        },
+        "type": "5 liker scale"
+      },
+      {
+        "number": 2,
+        "question": {
+          "EN": "I see myself as someone who is sometimes shy, inhibited."
+        },
+        "type": "5 liker scale"
+      },
+      {
+        "number": 3,
+        "question": {
+          "EN": "I see myself as someone who tends to be quiet."
+        },
+        "type": "5 liker scale"
+      },
+      {
+        "number": 4,
+        "question": {
+          "EN": "I see myself as someone who has a forgiving nature."
+        },
+        "type": "5 liker scale"
+      },
+      {
+        "number": 5,
+        "question": {
+          "EN": "I see myself as someone who is outgoing, sociable."
+        },
+        "type": "5 liker scale"
+      },
+      {
+        "number": 6,
+        "question": {
+          "EN": "I see myself as someone who is sometimes rude to others."
+        },
+        "type": "5 liker scale"
+      },
+      {
+        "number": 7,
+        "question": {
+          "EN": "I see myself as someone who has an assertive personality."
+        },
+        "type": "5 liker scale"
+      },
+      {
+        "number": 8,
+        "question": {
+          "EN": "I see myself as someone who is considerate and kind to almost everyone."
+        },
+        "type": "5 liker scale"
+      },
+      {
+        "number": 9,
+        "question": {
+          "EN": "I see myself as someone who is talkative."
+        },
+        "type": "5 liker scale"
+      },
+      {
+        "number": 10,
+        "question": {
+          "EN": "I see myself as someone who tends to find fault with others."
+        },
+        "type": "5 liker scale"
+      }
+    ]
+  }
+]

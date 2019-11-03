@@ -1,0 +1,25 @@
+[
+  {
+    "type": "offer",
+    "data":
+    [
+      {
+        "type": "text",
+        "contents": {
+          "KR": "여섯번째 업체입니다. 상대는 당신에게 ",
+          "EN": "This is the sixth company you're negotiating with. Your counterpart offered you "
+        }
+      },
+      {
+        "type": "price"
+      },
+      {
+        "type": "text",
+        "contents": {
+          "KR": "만원을 견적으로 제시했습니다. 계약에 체결하시거나 원하는 가격을 상대방에 제시하시거나 계약을 결렬하실 수 있습니다.",
+          "EN": " dollars. You can sign a contract, offer the price you want, or break the contract."
+        }
+      }
+    ]
+  }  
+]
